@@ -246,3 +246,10 @@
   width: 967px;
   height: 70px;
 }
+
+.div-span {
+  color: rgba(0, 0, 0, 0.34);
+}
+.div-span2 {
+  color: rgba(0, 0, 0, 0.64);
+}
