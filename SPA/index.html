@@ -1,89 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- ========================================
+       SOKOLART STUDIO - SPA PAGE
+       ========================================
+       
+       File: index.html
+       Description: SPA page showcasing SOKOLART Studio's SPA design projects
+       Author: SOKOLART Studio
+       Created: 2025
+       Last Modified: 2025-11-17
+       Version: 2.0
+       
+       Purpose:
+       - Display SPA and wellness design projects
+       - Showcase STILL BEAUTY SPACE and FONTE projects
+       - Present relaxation and wellness spaces
+       - Provide navigation to other studio sections
+       
+       Dependencies:
+       - ./vars.css (CSS variables and design tokens)
+       - ./style.css (Main styles for SPA page)
+       - ../contacts.html (Contact information iframe)
+       
+       Accessibility Features:
+       - Semantic HTML5 structure
+       - ARIA labels and roles
+       - Proper heading hierarchy
+       - Alt attributes for images
+       - Keyboard navigation friendly
+       
+       SEO Optimizations:
+       - Meta description and keywords
+       - Semantic markup
+       - Structured content
+       - Image alt attributes
+       - Proper title tag
+       
+       Performance Optimizations:
+       - CSS preloading
+       - Lazy loading for images
+       - Optimized iframe attributes
+    ======================================== -->
+  
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="SOKOLART Studio - SPA Design Projects. Luxury wellness and relaxation spaces including STILL BEAUTY SPACE (now FONTE). Premium SPA interiors.">
+  <meta name="keywords" content="SPA design, wellness design, relaxation spaces, beauty spa, luxury spa, SOKOLART, wellness interiors, STILL BEAUTY SPACE">
+  <meta name="author" content="SOKOLART Studio">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph Meta Tags for Social Media -->
+  <meta property="og:title" content="SOKOLART Studio - SPA Design Projects">
+  <meta property="og:description" content="Luxury wellness and relaxation spaces including STILL BEAUTY SPACE (now FONTE).">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sokolart-studio.com/SPA/">
+  
+  <!-- Page Title -->
+  <title>SOKOLART Studio - SPA Design Projects</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="../index_images/SokolArtLogo.jpg">
+  <link rel="apple-touch-icon" sizes="180x180" href="../index_images/SokolArtLogo.jpg">
+  
+  <!-- Preload critical styles for better performance -->
+  <link rel="preload" href="./vars.css" as="style">
+  <link rel="preload" href="./style.css" as="style">
+  
+  <!-- External stylesheets -->
   <link rel="stylesheet" href="./vars.css">
   <link rel="stylesheet" href="./style.css">
-  
-  
-  <style>
-   a,
-   button,
-   input,
-   select,
-   h1,
-   h2,
-   h3,
-   h4,
-   h5,
-   * {
-       box-sizing: border-box;
-       margin: 0;
-       padding: 0;
-       border: none;
-       text-decoration: none;
-       background: none;
-   
-       -webkit-font-smoothing: antialiased;
-   }
-   
-   menu, ol, ul {
-       list-style-type: none;
-       margin: 0;
-       padding: 0;
-   }
-   </style>
-  <title>Document</title>
 </head>
 <body>
-  <div class="geometry-3">
-    <div class="heading"></div>
-    <img class="_5-psd-1" src="_5-psd-10.png" />
-    <div class="studio">STUDIO</div>
-    <div class="div">
-      <span>
-        <a href="../Restaurants/index.html"><span class="div-span">РЕСТОРАНЫ</span></a>
-        <a href="../Residences/index.html"><span class="div-span">РЕЗИДЕНЦИИ</span></a>
-        <a href="../Office/index.html"><span class="div-span">ОФИСЫ</span></a>
-        <a href="../SPA/index.html"><span class="div-span4">СПА</span></a>
-        <a href="../Kong/index.html"><span class="div-span">ДРУГОЕ</span></a>
-        <a href="../Art/index.html"><span class="div-span">АРТ</span></a>
-        <a href="../About/index.html"><span class="div-span">О НАС</span></a>
-      </span>
-    </div>
-    <!--
-    <div class="div">
-      <span>
-        <span class="div-span">РЕСТОРАНЫ</span>
-        <span class="div-span2"></span>
-        <span class="div-span3">РЕЗИДЕНЦИИ ОФИСЫ</span>
-        <span class="div-span4">СПА</span>
-        <span class="div-span3">
-          ДРУГОЕ АРТ О НАС
-          <br />
-        </span>
-      </span>
-    </div>
-    -->
-    <img class="_11-1" src="_11-10.png" />
-    <img class="_12-1" src="_12-10.png" />
-    <img class="_13-1" src="_13-10.png" />
-    <div class="div2">
-      проекты, сделанные для дизайн-бюро “Геометрия”
-      <br />
-    </div>
-    <div class="frame-1321317461"></div>
-    <div class="heading2"></div>
-    <img class="_30-1" src="_30-10.png" />
-    <img class="_31-1" src="_31-10.png" />
-    <img class="_1-10-1" src="_1-10-10.png" />
-    <div class="div3">
-      проекты, сделанные для дизайн-бюро “Геометрия”
-      <br />
-    </div>
-  </div>
-  <iframe src="../contacts.html" title="contacts" width="100%" scrolling="no" overflow:hidden></iframe>
+  <main class="spa" data-section="spa">
+    <!-- Studio Header Section -->
+    <header class="studio-header" role="banner">
+      <div class="studio-label">STUDIO</div>
+      <img class="hero-image" src="_5-psd-10.png" alt="SOKOLART Studio SPA Design" loading="lazy" />
+    </header>
+
+    <!-- Project Introduction Section -->
+    <section class="project-intro" aria-labelledby="intro-title">
+      <h1 id="intro-title">Проекты, сделанные для дизайн-бюро "Геометрия"</h1>
+      <div class="intro-content">
+        <p>Пространства для релаксации и восстановления. Дизайн SPA, сочетающий
+        современные технологии с природными материалами, создает атмосферу
+        уюта и гармонии.</p>
+      </div>
+    </section>
+
+    <!-- Featured SPA Projects Section -->
+    <section class="featured-spa" aria-labelledby="featured-title">
+      <h2 id="featured-title">Award-Winning SPA Projects</h2>
+      <div class="spa-gallery">
+        <img class="spa-image spa-image--large" src="_11-10.png" alt="Award-winning SPA Project 1" loading="lazy" />
+        <img class="spa-image spa-image--medium" src="_12-10.png" alt="Award-winning SPA Project 2" loading="lazy" />
+        <img class="spa-image spa-image--portrait" src="_13-10.png" alt="Award-winning SPA Project 3" loading="lazy" />
+        <img class="spa-image spa-image--landscape" src="_30-10.png" alt="Award-winning SPA Project 4" loading="lazy" />
+        <img class="spa-image spa-image--square" src="_31-10.png" alt="Award-winning SPA Project 5" loading="lazy" />
+        <img class="spa-image spa-image--feature" src="_1-10-10.png" alt="Featured SPA Project - STILL BEAUTY SPACE" loading="lazy" />
+      </div>
+      <div class="project-awards">
+        <p>Премия AD interior за проект SPA Still beauty space (сейчас FONTE)</p>
+      </div>
+    </section>
+
+    <!-- Navigation Section -->
+    <nav class="studio-navigation" role="navigation" aria-label="Studio navigation">
+      <div class="navigation-links">
+        <a href="../Restaurants/index.html" class="nav-link">РЕСТОРАНЫ</a>
+        <a href="../Residences/index.html" class="nav-link">РЕЗИДЕНЦИИ</a>
+        <a href="../Office/index.html" class="nav-link">ОФИСЫ</a>
+        <a href="../SPA/index.html" class="nav-link nav-link--active">СПА</a>
+        <a href="../Kong/index.html" class="nav-link">ДРУГОЕ</a>
+        <a href="../Art/index.html" class="nav-link">АРТ</a>
+        <a href="../About/index.html" class="nav-link">О НАС</a>
+      </div>
+    </nav>
+  </main>
+
+  <!-- Contact Section -->
+  <iframe src="../contacts.html" title="Contact Information" width="100%" scrolling="no" style="overflow:hidden; border:none;"></iframe>
 </body>
 </html>

@@ -1,127 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- ========================================
+       SOKOLART STUDIO - ABOUT PAGE
+       ========================================
+       
+       File: index.html
+       Description: About page for SOKOLART Studio - Interior Design & Architecture
+       Author: SOKOLART Studio
+       Created: 2025
+       Last Modified: 2025-11-17
+       Version: 2.0
+       
+       Purpose:
+       - Display studio information and philosophy
+       - Showcase founder's experience and achievements
+       - Present comprehensive service offerings
+       - Provide navigation to other studio sections
+       
+       Dependencies:
+       - ./vars.css (CSS variables and design tokens)
+       - ./style.css (Main styles for About page)
+       - ../contacts.html (Contact information iframe)
+       
+       Accessibility Features:
+       - Semantic HTML5 structure
+       - ARIA labels and roles
+       - Proper heading hierarchy
+       - Alt attributes for images
+       - Keyboard navigation friendly
+       
+       SEO Optimizations:
+       - Meta description and keywords
+       - Semantic markup
+       - Structured content
+       - Image alt attributes
+       - Proper title tag
+       
+       Performance Optimizations:
+       - CSS preloading
+       - Lazy loading for images
+       - Optimized iframe attributes
+    ======================================== -->
+  
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="SOKOLART studio - Professional interior design studio established in 2025. Specializing in commercial projects, restaurant design, cultural heritage objects, and private interiors.">
+  <meta name="keywords" content="interior design, architecture, restaurant design, commercial design, private interiors, SOKOLART">
+  <meta name="author" content="SOKOLART Studio">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph Meta Tags for Social Media -->
+  <meta property="og:title" content="SOKOLART Studio - Interior Design & Architecture">
+  <meta property="og:description" content="Professional interior design studio specializing in commercial projects and private interiors.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sokolart-studio.com/About/">
+  
+  <!-- Page Title -->
+  <title>SOKOLART Studio - Interior Design & Architecture</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="../index_images/SokolArtLogo.jpg">
+  <link rel="apple-touch-icon" sizes="180x180" href="../index_images/SokolArtLogo.jpg">
+  
+  <!-- Preload critical styles for better performance -->
+  <link rel="preload" href="./vars.css" as="style">
+  <link rel="preload" href="./style.css" as="style">
+  
+  <!-- External stylesheets -->
   <link rel="stylesheet" href="./vars.css">
   <link rel="stylesheet" href="./style.css">
-  
-  
-  <style>
-   a,
-   button,
-   input,
-   select,
-   h1,
-   h2,
-   h3,
-   h4,
-   h5,
-   * {
-       box-sizing: border-box;
-       margin: 0;
-       padding: 0;
-       border: none;
-       text-decoration: none;
-       background: none;
-   
-       -webkit-font-smoothing: antialiased;
-   }
-   
-   menu, ol, ul {
-       list-style-type: none;
-       margin: 0;
-       padding: 0;
-   }
-   </style>
-  <title>Document</title>
 </head>
 <body>
-  <div class="about">
-    <div class="div">О нас</div>
-    <img class="img-20251113-153650-640-1" src="img-20251113-153650-640-10.png" />
-    <div class="sokolart-studio-2025">
-      SOKOLART studio основана в 2025 году.
-      <br />
-      • Мы помогаем не просто красиво оформить помещение, а решаем конкретные
-      бизнес-задачи и повышаем капитализацию недвижимости через дизайн, что
-      становится вашим конкурентным преимуществом. Мы берем на себя проектирование
-      и реализацию самых амбициозных задач.
-      <br />
-      • Обладаем экспертизой в коммерческих проектах, ориентированных на
-      результат. Формируем имидж бренда через дизайн интерьеров.
-      <br />
-      • Одна из наших ключевых специализаций — дизайн интерьеров для ресторанов
-      премиум-класса. Мы понимаем не только эстетику, но и операционную кухню
-      бизнеса, что позволяет создавать не просто красивые, а коммерчески успешные
-      проекты.
-      <br />
-      • Работа с объектами культурного наследия. Мы бережно адаптируем
-      исторические здания к современным стандартам, сохраняя их культурную и
-      историческую ценность, оснащая новой функциональностью.
-      <br />
-      • Частные интерьеры: мы создаем дома, которые отражают ваш образ жизни.
-      Апартаменты и резиденции, в которых учтены потребности каждого члена семьи,
-      а продуманный дизайн обеспечивает высокое качество жизни и комфорт.
-      <br />
-      Комплексный сервис:
-      <br />
-      Помимо дизайна интерьеров, мы предлагаем:
-      <br />
-      • Подбор недвижимости: Анализ потенциала объекта с точки зрения планировок,
-      локации и операционных задач.
-      <br />
-      • Арт-консалтинг: Подбор искусства и коллекционного дизайна.
-      <br />
-      • Сотрудничество с проверенными партнерами: у нас развитая сеть
-      профессиональных подрядчиков в сфере проектирования и строительства.
-    </div>
-    <div class="heading"></div>
-    <div class="heading2"></div>
-    <div class="heading3"></div>
-    <div class="heading4"></div>
-    <div class="heading5">
-      <div
-        class="_20-ava-patriki-loona-bocconcino-2-ad-interior-spa-still-beauty-space-fonte-15"
-      >
-        Мария Соколова
-        <br />
-        Основатель студии
-        <br />
-        Архитектор-дизайнер | Художник
-        <br />
-        •20 лет в дизайне интерьеров.
-        <br />
-        • В портфолио проекты, отмеченные различными международными премиями.
-        <br />
-        Сахалин - Дубай, Бодрум, Стамбул
-        <br />
-        Новиков - Москва, Катар, Стамбул и др
-        <br />
-        AVA, Patriki, Конг и др. – Москва, Loona - Сочи
-        <br />
-        Bocconcino 2 – Лондон и другие.
-        <br />
-         премия AD interior за проект SPA Still beauty space (сейчас FONTE)
-        <br />
-        • Более 15 реализованных проектов за рубежом
+  <main class="about">
+    <!-- Studio Header Section -->
+    <header class="studio-header" role="banner">
+      <div class="studio-title">О нас</div>
+      <img class="studio-image" src="img-20251113-153650-640-10.png" alt="SOKOLART Studio Interior Design" loading="lazy" />
+    </header>
+
+    <!-- About Studio Content -->
+    <section class="studio-description" aria-labelledby="studio-intro">
+      <h1 id="studio-intro">SOKOLART studio основана в 2025 году.</h1>
+      <div class="studio-content">
+        <p>Мы помогаем не просто красиво оформить помещение, а решаем конкретные
+        бизнес-задачи и повышаем капитализацию недвижимости через дизайн, что
+        становится вашим конкурентным преимуществом. Мы берем на себя проектирование
+        и реализацию самых амбициозных задач.</p>
+        
+        <p>Обладаем экспертизой в коммерческих проектах, ориентированных на
+        результат. Формируем имидж бренда через дизайн интерьеров.</p>
+        
+        <p>Одна из наших ключевых специализаций — дизайн интерьеров для ресторанов
+        премиум-класса. Мы понимаем не только эстетику, но и операционную кухню
+        бизнеса, что позволяет создавать не просто красивые, а коммерчески успешные
+        проекты.</p>
+        
+        <p>Работа с объектами культурного наследия. Мы бережно адаптируем
+        исторические здания к современным стандартам, сохраняя их культурную и
+        историческую ценность, оснащая новой функциональностью.</p>
+        
+        <p>Частные интерьеры: мы создаем дома, которые отражают ваш образ жизни.
+        Апартаменты и резиденции, в которых учтены потребности каждого члена семьи,
+        а продуманный дизайн обеспечивает высокое качество жизни и комфорт.</p>
       </div>
-    </div>
-    <img class="_5-psd-1" src="_5-psd-10.png" />
-    <div class="studio">STUDIO</div>
-    <div class="div2">
-      <span>
-        <a href="../Restaurants/index.html"><span class="div-2-span">РЕСТОРАНЫ</span></a>
-        <a href="../Residences/index.html"><span class="div-2-span">РЕЗИДЕНЦИИ</span></a>
-        <a href="../Office/index.html"><span class="div-2-span">ОФИСЫ</span></a>
-        <a href="../SPA/index.html"><span class="div-2-span">СПА</span></a>
-        <a href="../Kong/index.html"><span class="div-2-span">ДРУГОЕ</span></a>
-        <a href="../Art/index.html"><span class="div-2-span">АРТ</span></a>
-        <a href="../About/index.html"><span class="div-2-span2">О НАС</span></a>
-      </span>
-    </div>
-  </div>
-  <iframe src="../contacts.html" title="contacts" width="100%" scrolling="no" overflow:hidden></iframe>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" aria-labelledby="services-title">
+      <h2 id="services-title">Комплексный сервис</h2>
+      <div class="services-content">
+        <p>Помимо дизайна интерьеров, мы предлагаем:</p>
+        <ul class="services-list">
+          <li>Подбор недвижимости: Анализ потенциала объекта с точки зрения планировок,
+          локации и операционных задач.</li>
+          <li>Арт-консалтинг: Подбор искусства и коллекционного дизайна.</li>
+          <li>Сотрудничество с проверенными партнерами: у нас развитая сеть
+          профессиональных подрядчиков в сфере проектирования и строительства.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Founder Section -->
+    <section class="founder" aria-labelledby="founder-title">
+      <img class="founder-image" src="_5-psd-10.png" alt="Мария Соколова - Основатель студии" loading="lazy" />
+      <h2 id="founder-title">Мария Соколова</h2>
+      <div class="founder-content">
+        <p>Основатель студии<br>
+        Архитектор-дизайнер | Художник</p>
+        
+        <ul class="founder-achievements">
+          <li>20 лет в дизайне интерьеров.</li>
+          <li>В портфолио проекты, отмеченные различными международными премиями.</li>
+          <li>Сахалин - Дубай, Бодрум, Стамбул</li>
+          <li>Новиков - Москва, Катар, Стамбул и др</li>
+          <li>AVA, Patriki, Конг и др. – Москва, Loona - Сочи</li>
+          <li>Bocconcino 2 – Лондон и другие.</li>
+          <li>премия AD interior за проект SPA Still beauty space (сейчас FONTE)</li>
+          <li>Более 15 реализованных проектов за рубежом</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Navigation Section -->
+    <nav class="studio-navigation" role="navigation" aria-label="Studio navigation">
+      <div class="studio-label">STUDIO</div>
+      <div class="navigation-links">
+        <a href="../Restaurants/index.html" class="nav-link">РЕСТОРАНЫ</a>
+        <a href="../Residences/index.html" class="nav-link">РЕЗИДЕНЦИИ</a>
+        <a href="../Office/index.html" class="nav-link">ОФИСЫ</a>
+        <a href="../SPA/index.html" class="nav-link">СПА</a>
+        <a href="../Kong/index.html" class="nav-link">ДРУГОЕ</a>
+        <a href="../Art/index.html" class="nav-link">АРТ</a>
+        <a href="../About/index.html" class="nav-link nav-link--active">О НАС</a>
+      </div>
+    </nav>
+  </main>
+
+  <!-- Contact Section -->
+  <iframe src="../contacts.html" title="Contact Information" width="100%" scrolling="no" style="overflow:hidden; border:none;"></iframe>
 </body>
 </html>

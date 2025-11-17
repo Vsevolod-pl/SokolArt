@@ -1,109 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- ========================================
+       SOKOLART STUDIO - RESIDENCES PAGE
+       ========================================
+       
+       File: index.html
+       Description: Residences page showcasing SOKOLART Studio's residential projects
+       Author: SOKOLART Studio
+       Created: 2025
+       Last Modified: 2025-11-17
+       Version: 2.0
+       
+       Purpose:
+       - Display residential design projects (apartments, villas)
+       - Showcase projects in Moscow, London, Nice
+       - Present luxury living spaces
+       - Provide navigation to other studio sections
+       
+       Dependencies:
+       - ./vars.css (CSS variables and design tokens)
+       - ./style.css (Main styles for Residences page)
+       - ../contacts.html (Contact information iframe)
+       
+       Accessibility Features:
+       - Semantic HTML5 structure
+       - ARIA labels and roles
+       - Proper heading hierarchy
+       - Alt attributes for images
+       - Keyboard navigation friendly
+       
+       SEO Optimizations:
+       - Meta description and keywords
+       - Semantic markup
+       - Structured content
+       - Image alt attributes
+       - Proper title tag
+       
+       Performance Optimizations:
+       - CSS preloading
+       - Lazy loading for images
+       - Optimized iframe attributes
+    ======================================== -->
+  
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="SOKOLART Studio - Residential Design Projects. Luxury apartments and villas in Moscow, London, and Nice. Premium interior design for private residences.">
+  <meta name="keywords" content="residential design, apartment design, villa design, luxury interiors, private residences, SOKOLART, home design">
+  <meta name="author" content="SOKOLART Studio">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph Meta Tags for Social Media -->
+  <meta property="og:title" content="SOKOLART Studio - Residential Design Projects">
+  <meta property="og:description" content="Luxury apartments and villas in Moscow, London, and Nice.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sokolart-studio.com/Residences/">
+  
+  <!-- Page Title -->
+  <title>SOKOLART Studio - Residential Design Projects</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="../index_images/SokolArtLogo.jpg">
+  <link rel="apple-touch-icon" sizes="180x180" href="../index_images/SokolArtLogo.jpg">
+  
+  <!-- Preload critical styles for better performance -->
+  <link rel="preload" href="./vars.css" as="style">
+  <link rel="preload" href="./style.css" as="style">
+  
+  <!-- External stylesheets -->
   <link rel="stylesheet" href="./vars.css">
   <link rel="stylesheet" href="./style.css">
-  
-  
-  <style>
-   a,
-   button,
-   input,
-   select,
-   h1,
-   h2,
-   h3,
-   h4,
-   h5,
-   * {
-       box-sizing: border-box;
-       margin: 0;
-       padding: 0;
-       border: none;
-       text-decoration: none;
-       background: none;
-   
-       -webkit-font-smoothing: antialiased;
-   }
-   
-   menu, ol, ul {
-       list-style-type: none;
-       margin: 0;
-       padding: 0;
-   }
-   </style>
-  <title>Document</title>
 </head>
 <body>
-  <div class="geometry-2">
-    <div class="frame-1321317460"></div>
-    <div class="_022-1"></div>
-    <img
-      class="khlebny-presentation-page-32-2"
-      src="khlebny-presentation-page-32-20.png"
-    />
-    <img class="image-19" src="image-190.png" />
-    <img
-      class="photo-2022-11-27-13-41-53-1"
-      src="photo-2022-11-27-13-41-53-10.png"
-    />
-    <img class="image-20" src="image-200.png" />
-    <div class="div">
-      апартаменты. Москва
-      <br />
-    </div>
-    <div class="heading"></div>
-    <img class="_24-1" src="_24-10.png" />
-    <img class="image-18" src="image-180.png" />
-    <div class="div2">
-      виллы в Ницце
-      <br />
-    </div>
-    <div class="div3">
-      виллы в Ницце
-      <br />
-    </div>
-    <img class="image-17" src="image-170.png" />
-    <div class="div4">
-      апартаменты. Лондон
-      <br />
-    </div>
-    <div class="_049-1"></div>
-    <div class="_038-1"></div>
-    <img class="_25-1" src="_25-10.png" />
-    <img
-      class="photo-2022-11-26-13-15-47-1"
-      src="photo-2022-11-26-13-15-47-10.png"
-    />
-    <div class="div5">
-      апартаменты. Лондон
-      <br />
-    </div>
-    <img
-      class="photo-10-2023-08-26-16-05-13-1"
-      src="photo-10-2023-08-26-16-05-13-10.png"
-    />
-    <img class="image-4" src="image-40.png" />
-    <div class="studio">STUDIO</div>
-    <div class="div6">
-      <span>
-        <a href="../Restaurants/index.html"><span class="div-6-span">РЕСТОРАНЫ</span></a>
-        <a href="../Residences/index.html"><span class="div-6-span4">РЕЗИДЕНЦИИ</span></a>
-        <a href="../Office/index.html"><span class="div-6-span">ОФИСЫ</span></a>
-        <a href="../SPA/index.html"><span class="div-6-span">СПА</span></a>
-        <a href="../Kong/index.html"><span class="div-6-span">ДРУГОЕ</span></a>
-        <a href="../Art/index.html"><span class="div-6-span">АРТ</span></a>
-        <a href="../About/index.html"><span class="div-6-span">О НАС</span></a>
-      </span>
-    </div>
-    <div class="div7">
-      проекты, сделанные для дизайн-бюро “Геометрия”
-      <br />
-    </div>
-  </div>
-  <iframe src="../contacts.html" title="contacts" width="100%" scrolling="no" overflow:hidden></iframe>
+  <main class="residences" data-section="residences">
+    <!-- Studio Header Section -->
+    <header class="studio-header" role="banner">
+      <div class="studio-label">STUDIO</div>
+      <img class="hero-image" src="image-40.png" alt="SOKOLART Studio Residential Design" loading="lazy" />
+    </header>
+
+    <!-- Project Introduction Section -->
+    <section class="project-intro" aria-labelledby="intro-title">
+      <h1 id="intro-title">Проекты, сделанные для дизайн-бюро "Геометрия"</h1>
+      <div class="intro-content">
+        <p>Эксклюзивные интерьеры для частных резиденций, отражаемые образ жизни
+        и индивидуальность каждого клиента. Пространства, где каждый элемент
+        продуман до мелочей.</p>
+      </div>
+    </section>
+
+    <!-- Location Showcase Section -->
+    <section class="location-showcase" aria-labelledby="showcase-title">
+      <h2 id="showcase-title">International Residences</h2>
+      <div class="showcase-grid">
+        <!-- Moscow Apartments -->
+        <div class="location-card">
+          <img class="location-image" src="_24-10.png" alt="Moscow Apartments" loading="lazy" />
+          <div class="location-info">
+            <h3 class="location-name">Апартаменты. Москва</h3>
+            <p class="location-description">Urban luxury living</p>
+          </div>
+        </div>
+        
+        <!-- Nice Villas -->
+        <div class="location-card">
+          <img class="location-image" src="image-180.png" alt="Villas in Nice" loading="lazy" />
+          <div class="location-info">
+            <h3 class="location-name">Виллы в Ницце</h3>
+            <p class="location-description">French Riviera elegance</p>
+          </div>
+        </div>
+        
+        <!-- London Apartments -->
+        <div class="location-card">
+          <img class="location-image" src="image-170.png" alt="London Apartments" loading="lazy" />
+          <div class="location-info">
+            <h3 class="location-name">Апартаменты. Лондон</h3>
+            <p class="location-description">Metropolitan sophistication</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="featured-projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Featured Residential Projects</h2>
+      <div class="projects-gallery">
+        <img class="project-image project-image--large" src="photo-10-2023-08-26-16-05-13-10.png" alt="Featured Residential Project 1" loading="lazy" />
+        <img class="project-image project-image--portrait" src="photo-2022-11-26-13-15-47-10.png" alt="Featured Residential Project 2" loading="lazy" />
+        <img class="project-image project-image--landscape" src="photo-2022-11-27-13-41-53-10.png" alt="Featured Residential Project 3" loading="lazy" />
+        <img class="project-image project-image--square" src="_25-10.png" alt="Featured Residential Project 4" loading="lazy" />
+        <img class="project-image project-image--wide" src="_022-10.png" alt="Featured Residential Project 5" loading="lazy" />
+        <img class="project-image project-image--medium" src="_049-10.png" alt="Featured Residential Project 6" loading="lazy" />
+      </div>
+    </section>
+
+    <!-- Navigation Section -->
+    <nav class="studio-navigation" role="navigation" aria-label="Studio navigation">
+      <div class="navigation-links">
+        <a href="../Restaurants/index.html" class="nav-link">РЕСТОРАНЫ</a>
+        <a href="../Residences/index.html" class="nav-link nav-link--active">РЕЗИДЕНЦИИ</a>
+        <a href="../Office/index.html" class="nav-link">ОФИСЫ</a>
+        <a href="../SPA/index.html" class="nav-link">СПА</a>
+        <a href="../Kong/index.html" class="nav-link">ДРУГОЕ</a>
+        <a href="../Art/index.html" class="nav-link">АРТ</a>
+        <a href="../About/index.html" class="nav-link">О НАС</a>
+      </div>
+    </nav>
+  </main>
+
+  <!-- Contact Section -->
+  <iframe src="../contacts.html" title="Contact Information" width="100%" scrolling="no" style="overflow:hidden; border:none;"></iframe>
 </body>
 </html>

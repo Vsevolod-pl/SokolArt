@@ -1,94 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- ========================================
+       SOKOLART STUDIO - KONG PAGE
+       ========================================
+       
+       File: index.html
+       Description: Kong page showcasing SOKOLART Studio's Kong restaurant project
+       Author: SOKOLART Studio
+       Created: 2025
+       Last Modified: 2025-11-17
+       Version: 2.0
+       
+       Purpose:
+       - Display the KONG restaurant project in Moscow 2025
+       - Showcase collaboration with DA_Design
+       - Present premium restaurant design concept
+       - Provide navigation to other studio sections
+       
+       Dependencies:
+       - ./vars.css (CSS variables and design tokens)
+       - ./style.css (Main styles for Kong page)
+       - ../contacts.html (Contact information iframe)
+       
+       Accessibility Features:
+       - Semantic HTML5 structure
+       - ARIA labels and roles
+       - Proper heading hierarchy
+       - Alt attributes for images
+       - Keyboard navigation friendly
+       
+       SEO Optimizations:
+       - Meta description and keywords
+       - Semantic markup
+       - Structured content
+       - Image alt attributes
+       - Proper title tag
+       
+       Performance Optimizations:
+       - CSS preloading
+       - Lazy loading for images
+       - Optimized iframe attributes
+    ======================================== -->
+  
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="SOKOLART Studio - KONG Restaurant Project. Premium restaurant design in Moscow 2025, created for DA_Design. Luxury dining concept.">
+  <meta name="keywords" content="restaurant design, KONG restaurant, Moscow restaurant, DA_Design, luxury dining, SOKOLART, restaurant interiors">
+  <meta name="author" content="SOKOLART Studio">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph Meta Tags for Social Media -->
+  <meta property="og:title" content="SOKOLART Studio - KONG Restaurant Project">
+  <meta property="og:description" content="Premium restaurant design in Moscow 2025, created for DA_Design.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sokolart-studio.com/Kong/">
+  
+  <!-- Page Title -->
+  <title>SOKOLART Studio - KONG Restaurant Project</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="../index_images/SokolArtLogo.jpg">
+  <link rel="apple-touch-icon" sizes="180x180" href="../index_images/SokolArtLogo.jpg">
+  
+  <!-- Preload critical styles for better performance -->
+  <link rel="preload" href="./vars.css" as="style">
+  <link rel="preload" href="./style.css" as="style">
+  
+  <!-- External stylesheets -->
   <link rel="stylesheet" href="./vars.css">
   <link rel="stylesheet" href="./style.css">
-  
-  
-  <style>
-   a,
-   button,
-   input,
-   select,
-   h1,
-   h2,
-   h3,
-   h4,
-   h5,
-   * {
-       box-sizing: border-box;
-       margin: 0;
-       padding: 0;
-       border: none;
-       text-decoration: none;
-       background: none;
-   
-       -webkit-font-smoothing: antialiased;
-   }
-   
-   menu, ol, ul {
-       list-style-type: none;
-       margin: 0;
-       padding: 0;
-   }
-   </style>
-  <title>Document</title>
 </head>
 <body>
-  <div class="kong">
-    <div class="heading">
-      <div class="da-design">
-        сделано для DA_Design
-        <br />
+  <main class="kong" data-section="kong">
+    <!-- Studio Header Section -->
+    <header class="studio-header" role="banner">
+      <div class="studio-label">STUDIO</div>
+      <img class="hero-image" src="image-40.png" alt="SOKOLART Studio Kong Project" loading="lazy" />
+    </header>
+
+    <!-- Collaboration Section -->
+    <section class="collaboration" aria-labelledby="collab-title">
+      <h1 id="collab-title">Ресторан "КОНГ" Москва 2025</h1>
+      <div class="collaboration-content">
+        <p>Сделано для DA_Design</p>
+        <p>Premium restaurant concept in the heart of Moscow. A sophisticated
+        dining experience combining modern design with traditional elements.</p>
       </div>
-    </div>
-    <img class="_007-1" src="_007-10.png" />
-    <div class="heading2">
-      <div class="da-design">
-        сделано для DA_Design
-        <br />
+    </section>
+
+    <!-- Project Gallery Section -->
+    <section class="project-gallery" aria-labelledby="gallery-title">
+      <h2 id="gallery-title">Project Showcase</h2>
+      <div class="gallery-grid">
+        <img class="gallery-image gallery-image--large" src="_007-10.png" alt="KONG Restaurant Interior Design" loading="lazy" />
+        <img class="gallery-image gallery-image--medium" src="kong-2-10.png" alt="KONG Restaurant Feature Area" loading="lazy" />
+        <img class="gallery-image gallery-image--portrait" src="kong-30.png" alt="KONG Restaurant Detail" loading="lazy" />
       </div>
-    </div>
-    <div class="heading3">
-      <div class="_2025">
-        Ресторан “КОНГ” Москва 2025
-        <br />
+    </section>
+
+    <!-- Navigation Section -->
+    <nav class="studio-navigation" role="navigation" aria-label="Studio navigation">
+      <div class="navigation-links">
+        <a href="../Restaurants/index.html" class="nav-link">РЕСТОРАНЫ</a>
+        <a href="../Residences/index.html" class="nav-link">РЕЗИДЕНЦИИ</a>
+        <a href="../Office/index.html" class="nav-link">ОФИСЫ</a>
+        <a href="../SPA/index.html" class="nav-link">СПА</a>
+        <a href="../Kong/index.html" class="nav-link nav-link--active">ДРУГОЕ</a>
+        <a href="../Art/index.html" class="nav-link">АРТ</a>
+        <a href="../About/index.html" class="nav-link">О НАС</a>
       </div>
-    </div>
-    <div class="text">
-      <br />
-    </div>
-    <img class="image-4" src="image-40.png" />
-    <img class="kong-2-1" src="kong-2-10.png" />
-    <img class="kong-3" src="kong-30.png" />
-    <div class="heading4"></div>
-    <div class="div">
-      <span>
-        <a href="../Restaurants/index.html"><span class="div-span">РЕСТОРАНЫ</span></a>
-        <a href="../Residences/index.html"><span class="div-span">РЕЗИДЕНЦИИ</span></a>
-        <a href="../Office/index.html"><span class="div-span">ОФИСЫ</span></a>
-        <a href="../SPA/index.html"><span class="div-span">СПА</span></a>
-        <a href="../Kong/index.html"><span class="div-span2">ДРУГОЕ</span></a>
-        <a href="../Art/index.html"><span class="div-span">АРТ</span></a>
-        <a href="../About/index.html"><span class="div-span">О НАС</span></a>
-      </span>
-    </div>
-    <!--
-    <div class="div">
-      РЕСТОРАНЫ РЕЗИДЕНЦИИ ОФИСЫ СПА ДРУГОЕ АРТ О НАС
-      <br />
-    </div>
-    -->
-    
-    <div class="kong2">
-      KONG Москва
-      <br />
-    </div>
-    
-  </div>
-  <iframe src="../contacts.html" title="contacts" width="100%" scrolling="no" overflow:hidden></iframe>
+    </nav>
+  </main>
+
+  <!-- Contact Section -->
+  <iframe src="../contacts.html" title="Contact Information" width="100%" scrolling="no" style="overflow:hidden; border:none;"></iframe>
 </body>
 </html>

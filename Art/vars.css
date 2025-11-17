@@ -1,7 +1,178 @@
-/* Figma Styles of your File */
+/* 
+ * SOKOLART STUDIO - CSS Variables
+ * File: vars.css
+ * Description: Global CSS variables and design tokens for the Art section
+ * Author: SOKOLART Studio
+ * Created: 2025
+ * Last Modified: 2025-11-17
+ */
+
 :root {
-  /* Colors */
-  /* Fonts */
-  /* Effects */
+  /* ========================================
+     COLOR SYSTEM
+     ======================================== */
+  
+  /* Primary Colors */
+  --color-primary: #000000;
+  --color-primary-light: #333333;
+  --color-primary-lighter: #666666;
+  --color-primary-lightest: #999999;
+  
+  /* Secondary Colors */
+  --color-secondary: #444444;
+  --color-secondary-light: #777777;
+  
+  /* Background Colors */
+  --color-background: #ffffff;
+  --color-background-alt: #f8f8f8;
+  --color-background-dark: #e6e6e6;
+  
+  /* Text Colors */
+  --color-text-primary: rgba(0, 0, 0, 0.65);
+  --color-text-secondary: rgba(0, 0, 0, 0.42);
+  --color-text-tertiary: rgba(0, 0, 0, 0.72);
+  --color-text-highlight: rgba(0, 0, 0, 0.86);
+  --color-text-inverted: #ffffff;
+  
+  /* Accent Colors */
+  --color-accent: #ddddb0;
+  --color-accent-alpha: rgba(221, 219, 176, 0.33);
+  
+  /* ========================================
+     TYPOGRAPHY SYSTEM
+     ======================================== */
+  
+  /* Font Families */
+  --font-family-primary: "Inter", sans-serif;
+  --font-family-secondary: "Roboto", sans-serif;
+  --font-family-display: "Inter", sans-serif;
+  
+  /* Font Weights */
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  
+  /* Font Sizes */
+  --font-size-xs: 16px;
+  --font-size-sm: 20px;
+  --font-size-base: 24px;
+  --font-size-lg: 32px;
+  --font-size-xl: 40px;
+  --font-size-xxl: 57px;
+  --font-size-xxxl: 64px;
+  
+  /* Line Heights */
+  --line-height-tight: 120%;
+  --line-height-base: 150%;
+  --line-height-loose: 160%;
+  
+  /* Letter Spacing */
+  --letter-spacing-tight: -0.25px;
+  --letter-spacing-normal: -0.02em;
+  
+  /* ========================================
+     LAYOUT SYSTEM
+     ======================================== */
+  
+  /* Spacing Scale */
+  --spacing-xs: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 48px;
+  --spacing-xxxl: 64px;
+  
+  /* Border Radius */
+  --border-radius-xs: 4px;
+  --border-radius-sm: 8px;
+  --border-radius-md: 12px;
+  --border-radius-lg: 16px;
+  --border-radius-full: 50%;
+  
+  /* Box Shadows */
+  --shadow-xs: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0px 4px 8px 0px rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0px 8px 16px 0px rgba(0, 0, 0, 0.16);
+  --shadow-xl: 0px 16px 32px 0px rgba(0, 0, 0, 0.20);
+  
+  /* ========================================
+     Z-INDEX LAYER SYSTEM
+     ======================================== */
+  
+  --z-index-base: 1;
+  --z-index-navigation: 100;
+  --z-index-modal: 1000;
+  --z-index-tooltip: 10000;
+  
+  /* ========================================
+     TRANSITION SYSTEM
+     ======================================== */
+  
+  --transition-fast: 0.15s ease-in-out;
+  --transition-normal: 0.3s ease-in-out;
+  --transition-slow: 0.5s ease-in-out;
+  
+  /* ========================================
+     BREAKPOINTS
+     ======================================== */
+  
+  --breakpoint-mobile: 480px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-desktop: 1024px;
+  --breakpoint-large: 1440px;
 }
-/* Figma Color Variables of your File */
+
+/* 
+ * Component-Specific Variables for Art Section
+ * ================================================ */
+
+[data-section="art"] {
+  /* Studio Header Component */
+  --studio-header-label-size: var(--font-size-xxl);
+  --studio-header-label-weight: var(--font-weight-medium);
+  --studio-header-label-spacing: var(--letter-spacing-tight);
+  --studio-header-label-height: var(--line-height-tight);
+
+  /* Art Philosophy Component */
+  --art-philosophy-title-size: var(--font-size-xxxl);
+  --art-philosophy-title-weight: var(--font-weight-bold);
+  --art-philosophy-title-spacing: var(--letter-spacing-normal);
+  --art-content-size: var(--font-size-sm);
+  --art-content-weight: var(--font-weight-medium);
+  --art-content-line-height: var(--line-height-base);
+
+  /* Collection Components */
+  --collection-title-size: var(--font-size-xl);
+  --collection-title-weight: var(--font-weight-semibold);
+  --collection-content-size: var(--font-size-base);
+  --collection-content-weight: var(--font-weight-medium);
+  --collection-content-line-height: var(--line-height-base);
+
+  /* Gallery Layout */
+  --gallery-gap: var(--spacing-lg);
+  --gallery-columns: 3;
+  --gallery-column-width: calc(33.333% - var(--gallery-gap) * 2 / 3);
+  
+  /* Gallery Item Sizes */
+  --gallery-item-large-width: calc(66.666% - var(--gallery-gap) / 3);
+  --gallery-item-large-height: 500px;
+  --gallery-item-medium-width: calc(33.333% - var(--gallery-gap) / 3);
+  --gallery-item-medium-height: 400px;
+  --gallery-item-small-width: calc(33.333% - var(--gallery-gap) / 3);
+  --gallery-item-small-height: 300px;
+  --gallery-item-square-size: 400px;
+  --gallery-item-portrait-width: 300px;
+  --gallery-item-portrait-height: 500px;
+  --gallery-item-landscape-width: 500px;
+  --gallery-item-landscape-height: 300px;
+
+  /* Navigation Component */
+  --nav-link-size: var(--font-size-xl);
+  --nav-link-weight: var(--font-weight-semibold);
+  --nav-link-spacing: var(--spacing-lg);
+  --nav-link-hover-scale: 1.05;
+}

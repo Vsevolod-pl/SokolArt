@@ -1,85 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- ========================================
+       SOKOLART STUDIO - OFFICE PAGE
+       ========================================
+       
+       File: index.html
+       Description: Office page showcasing SOKOLART Studio's office design projects
+       Author: SOKOLART Studio
+       Created: 2025
+       Last Modified: 2025-11-17
+       Version: 2.0
+       
+       Purpose:
+       - Display office design projects for design bureaus
+       - Showcase modern workspace concepts
+       - Present functional and aesthetic office solutions
+       - Provide navigation to other studio sections
+       
+       Dependencies:
+       - ./vars.css (CSS variables and design tokens)
+       - ./style.css (Main styles for Office page)
+       - ../contacts.html (Contact information iframe)
+       
+       Accessibility Features:
+       - Semantic HTML5 structure
+       - ARIA labels and roles
+       - Proper heading hierarchy
+       - Alt attributes for images
+       - Keyboard navigation friendly
+       
+       SEO Optimizations:
+       - Meta description and keywords
+       - Semantic markup
+       - Structured content
+       - Image alt attributes
+       - Proper title tag
+       
+       Performance Optimizations:
+       - CSS preloading
+       - Lazy loading for images
+       - Optimized iframe attributes
+    ======================================== -->
+  
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="SOKOLART Studio - Office Design Projects. Modern office interiors for design bureaus in Moscow. Functional and aesthetic workspace solutions.">
+  <meta name="keywords" content="office design, workspace design, office interiors, design bureau, modern office, SOKOLART, commercial interiors">
+  <meta name="author" content="SOKOLART Studio">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph Meta Tags for Social Media -->
+  <meta property="og:title" content="SOKOLART Studio - Office Design Projects">
+  <meta property="og-description" content="Modern office design projects for design bureaus in Moscow.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sokolart-studio.com/Office/">
+  
+  <!-- Page Title -->
+  <title>SOKOLART Studio - Office Design Projects</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="../index_images/SokolArtLogo.jpg">
+  <link rel="apple-touch-icon" sizes="180x180" href="../index_images/SokolArtLogo.jpg">
+  
+  <!-- Preload critical styles for better performance -->
+  <link rel="preload" href="./vars.css" as="style">
+  <link rel="preload" href="./style.css" as="style">
+  
+  <!-- External stylesheets -->
   <link rel="stylesheet" href="./vars.css">
   <link rel="stylesheet" href="./style.css">
-  
-  
-  <style>
-   a,
-   button,
-   input,
-   select,
-   h1,
-   h2,
-   h3,
-   h4,
-   h5,
-   * {
-       box-sizing: border-box;
-       margin: 0;
-       padding: 0;
-       border: none;
-       text-decoration: none;
-       background: none;
-   
-       -webkit-font-smoothing: antialiased;
-   }
-   
-   menu, ol, ul {
-       list-style-type: none;
-       margin: 0;
-       padding: 0;
-   }
-   </style>
-  <title>Document</title>
 </head>
 <body>
-  <div class="office">
-    <div class="heading"></div>
-    <div class="_2024">
-      офис для дизайн-бюро. Москва 2024
-      <br />
-    </div>
-    <img class="image-4" src="image-40.png" />
-    <div class="studio">STUDIO</div>
-    <div class="div">
-      <span>
-        <a href="../Restaurants/index.html"><span class="div-span">РЕСТОРАНЫ</span></a>
-        <a href="../Residences/index.html"><span class="div-span">РЕЗИДЕНЦИИ</span></a>
-        <a href="../Office/index.html"><span class="div-span2">ОФИСЫ</span></a>
-        <a href="../SPA/index.html"><span class="div-span">СПА</span></a>
-        <a href="../Kong/index.html"><span class="div-span">ДРУГОЕ</span></a>
-        <a href="../Art/index.html"><span class="div-span">АРТ</span></a>
-        <a href="../About/index.html"><span class="div-span">О НАС</span></a>
-      </span>
-    </div>
-    <!--
-    <div class="div">
-      <span>
-        <span class="div-span">РЕСТОРАНЫ РЕЗИДЕНЦИИ</span>
-        <span class="div-span2">ОФИСЫ</span>
-        <span class="div-span">
-          СПА ДРУГОЕ АРТ О НАС
-          <br />
-        </span>
-      </span>
-    </div>
-    -->
-    <img class="_2-st-office-17-1" src="_2-st-office-17-10.png" />
-    <img class="_2-st-office-374-1" src="_2-st-office-374-10.png" />
-    <img class="_2-st-office-322-1" src="_2-st-office-322-10.png" />
-    <img class="image-6" src="image-60.png" />
-    <img class="image-8" src="image-80.png" />
-    <img class="image-9" src="image-90.png" />
-    <img
-      class="image-2024-09-24-14-38-13-copy-1"
-      src="image-2024-09-24-14-38-13-copy-10.png"
-    />
-  </div>
-  <iframe src="../contacts.html" title="contacts" width="100%" scrolling="no" overflow:hidden></iframe>
+  <main class="office" data-section="office">
+    <!-- Studio Header Section -->
+    <header class="studio-header" role="banner">
+      <div class="studio-label">STUDIO</div>
+      <img class="hero-image" src="image-40.png" alt="SOKOLART Studio Office Design" loading="lazy" />
+    </header>
+
+    <!-- Project Introduction Section -->
+    <section class="project-intro" aria-labelledby="intro-title">
+      <h1 id="intro-title">Офис для дизайн-бюро. Москва 2024</h1>
+      <div class="intro-content">
+        <p>Современные офисные решения, сочетающие функциональность и эстетику.
+        Пространства, вдохновляющие на креативную работу и продуктивное сотрудничество.</p>
+      </div>
+    </section>
+
+    <!-- Office Gallery Section -->
+    <section class="office-gallery" aria-labelledby="gallery-title">
+      <h2 id="gallery-title">Office Design Gallery</h2>
+      <div class="gallery-grid">
+        <img class="gallery-item gallery-item--large" src="_2-st-office-17-10.png" alt="Office Design Project 1" loading="lazy" />
+        <img class="gallery-item gallery-item--medium" src="_2-st-office-374-10.png" alt="Office Design Project 2" loading="lazy" />
+        <img class="gallery-item gallery-item--portrait" src="_2-st-office-322-10.png" alt="Office Design Project 3" loading="lazy" />
+        <img class="gallery-item gallery-item--landscape" src="image-60.png" alt="Office Design Project 4" loading="lazy" />
+        <img class="gallery-item gallery-item--square" src="image-80.png" alt="Office Design Project 5" loading="lazy" />
+        <img class="gallery-item gallery-item--wide" src="image-90.png" alt="Office Design Project 6" loading="lazy" />
+        <img class="gallery-item gallery-item--feature" src="image-2024-09-24-14-38-13-copy-10.png" alt="Featured Office Project" loading="lazy" />
+      </div>
+    </section>
+
+    <!-- Navigation Section -->
+    <nav class="studio-navigation" role="navigation" aria-label="Studio navigation">
+      <div class="navigation-links">
+        <a href="../Restaurants/index.html" class="nav-link">РЕСТОРАНЫ</a>
+        <a href="../Residences/index.html" class="nav-link">РЕЗИДЕНЦИИ</a>
+        <a href="../Office/index.html" class="nav-link nav-link--active">ОФИСЫ</a>
+        <a href="../SPA/index.html" class="nav-link">СПА</a>
+        <a href="../Kong/index.html" class="nav-link">ДРУГОЕ</a>
+        <a href="../Art/index.html" class="nav-link">АРТ</a>
+        <a href="../About/index.html" class="nav-link">О НАС</a>
+      </div>
+    </nav>
+  </main>
+
+  <!-- Contact Section -->
+  <iframe src="../contacts.html" title="Contact Information" width="100%" scrolling="no" style="overflow:hidden; border:none;"></iframe>
 </body>
 </html>

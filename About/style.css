@@ -1,25 +1,347 @@
+/*
+ * SOKOLART Studio - About Page Styles
+ * File: style.css
+ * Description: Main styles for the About page
+ * Author: SOKOLART Studio
+ * Created: 2025
+ * Last Modified: 2025-11-17
+ * Dependencies: vars.css
+ */
+
+/* ========================================
+   GLOBAL STYLES & RESET
+   ======================================== */
+
 .about,
 .about * {
   box-sizing: border-box;
 }
+
+/* ========================================
+   MAIN CONTAINER
+   ======================================== */
+
 .about {
-  background: #ffffff;
-  height: 1904px;
+  background: var(--color-background);
+  min-height: 100vh;
   position: relative;
   overflow: hidden;
+  font-family: var(--font-family-primary);
 }
-.div {
-  color: rgba(0, 0, 0, 0.65);
+
+/* ========================================
+   STUDIO HEADER COMPONENT
+   ======================================== */
+
+.studio-header {
+  position: relative;
+  width: 100%;
+  padding: var(--spacing-xxl) 0;
+}
+
+.studio-title {
+  color: var(--color-text-primary);
   text-align: left;
-  font-family: var(--title-font-family, "Inter-Bold", sans-serif);
-  font-size: var(--title-font-size, 64px);
-  letter-spacing: var(--title-letter-spacing, -0.02em);
-  font-weight: var(--title-font-weight, 700);
+  font-family: var(--font-family-display);
+  font-size: var(--studio-header-title-size, var(--font-size-xxxl));
+  letter-spacing: var(--studio-header-title-spacing, var(--letter-spacing-normal));
+  font-weight: var(--studio-header-title-weight, var(--font-weight-bold));
   position: absolute;
   left: 131px;
   top: 568px;
   width: 591px;
   height: 74px;
+  margin: 0;
+}
+
+.studio-image {
+  width: 360px;
+  height: 594px;
+  position: absolute;
+  left: 914px;
+  top: 570px;
+  object-fit: cover;
+  aspect-ratio: 360/594;
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+/* ========================================
+   STUDIO DESCRIPTION COMPONENT
+   ======================================== */
+
+.studio-description {
+  position: relative;
+  padding: var(--spacing-xxxl) 0;
+}
+
+#studio-intro {
+  color: var(--color-text-primary);
+  text-align: left;
+  font-family: var(--font-family-display);
+  font-size: var(--studio-header-title-size, var(--font-size-xxxl));
+  letter-spacing: var(--studio-header-title-spacing, var(--letter-spacing-normal));
+  font-weight: var(--studio-header-title-weight, var(--font-weight-bold));
+  position: absolute;
+  left: 131px;
+  top: 568px;
+  width: 591px;
+  height: 74px;
+  margin: 0;
+}
+
+.studio-content {
+  color: var(--color-text-tertiary);
+  text-align: left;
+  font-family: var(--font-family-primary);
+  font-size: var(--studio-description-size, var(--font-size-sm));
+  line-height: var(--studio-description-line-height, var(--line-height-base));
+  font-weight: var(--studio-description-weight, var(--font-weight-medium));
+  position: absolute;
+  left: 137px;
+  top: 699px;
+  width: 686px;
+  height: 1026px;
+}
+
+.studio-content p {
+  margin-bottom: var(--spacing-md);
+}
+
+/* ========================================
+   SERVICES COMPONENT
+   ======================================== */
+
+.services {
+  position: relative;
+  padding: var(--spacing-xl) 0;
+}
+
+#services-title {
+  position: absolute;
+  left: 874px;
+  top: 1353px;
+  width: 254px;
+  height: 63px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-s);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.services-content {
+  position: absolute;
+  left: 898px;
+  top: 1296px;
+  width: 636px;
+  height: 42px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-s);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.services-list {
+  list-style: none;
+  padding: 0;
+  margin: var(--spacing-md) 0;
+}
+
+.services-list li {
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text-tertiary);
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-base);
+}
+
+/* ========================================
+   FOUNDER COMPONENT
+   ======================================== */
+
+.founder {
+  position: relative;
+  padding: var(--spacing-xl) 0;
+}
+
+.founder-image {
+  width: 1398px;
+  height: 529px;
+  position: absolute;
+  left: 35px;
+  top: -59px;
+  object-fit: cover;
+  aspect-ratio: 1398/529;
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-md);
+}
+
+#founder-title {
+  color: var(--color-text-primary);
+  text-align: left;
+  font-family: var(--font-family-secondary);
+  font-size: var(--founder-title-size, var(--font-size-xl));
+  line-height: var(--line-height-tight);
+  letter-spacing: var(--letter-spacing-tight);
+  font-weight: var(--font-weight-semibold);
+  position: absolute;
+  left: 1045px;
+  top: 302px;
+  width: 304px;
+  height: 66px;
+  margin: 0;
+}
+
+.founder-content {
+  position: absolute;
+  left: 914px;
+  top: 1199px;
+  width: 347px;
+  height: 63px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-s);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.founder-achievements {
+  list-style: none;
+  padding: 0;
+  margin: var(--spacing-md) 0;
+}
+
+.founder-achievements li {
+  margin-bottom: var(--spacing-xs);
+  color: var(--color-text-secondary);
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-base);
+}
+
+/* ========================================
+   NAVIGATION COMPONENT
+   ======================================== */
+
+.studio-navigation {
+  position: relative;
+  padding: var(--spacing-lg) 0;
+  background: var(--color-background-alt);
+}
+
+.studio-label {
+  color: var(--color-text-highlight);
+  text-align: left;
+  font-family: var(--font-family-secondary);
+  font-size: var(--font-size-xxl);
+  line-height: var(--line-height-tight);
+  letter-spacing: var(--letter-spacing-tight);
+  font-weight: var(--font-weight-medium);
+  position: absolute;
+  left: 1045px;
+  top: 302px;
+  width: 304px;
+  height: 66px;
+}
+
+.navigation-links {
+  text-align: left;
+  font-family: var(--font-family-primary);
+  font-size: var(--nav-link-size, var(--font-size-xl));
+  line-height: var(--line-height-base);
+  font-weight: var(--nav-link-weight, var(--font-weight-semibold));
+  position: absolute;
+  left: 36px;
+  top: 484px;
+  width: 1324px;
+  height: 70px;
+  display: flex;
+  gap: var(--nav-link-spacing, var(--spacing-lg));
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.nav-link {
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  transition: color var(--transition-normal);
+}
+
+.nav-link:hover {
+  color: var(--color-text-primary);
+}
+
+.nav-link--active {
+  color: var(--color-text-primary);
+  font-weight: var(--font-weight-bold);
+}
+
+/* ========================================
+   CONTACT SECTION
+   ======================================== */
+
+/* Contact iframe styles are handled inline for security */
+
+/* ========================================
+   RESPONSIVE DESIGN
+   ======================================== */
+
+@media (max-width: var(--breakpoint-desktop)) {
+  .about {
+    height: auto;
+  }
+  
+  .studio-title,
+  #studio-intro {
+    position: relative;
+    left: var(--spacing-lg);
+    top: auto;
+    font-size: var(--font-size-xxl);
+  }
+  
+  .studio-image {
+    position: relative;
+    left: var(--spacing-lg);
+    top: auto;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  
+  .studio-content {
+    position: relative;
+    left: var(--spacing-lg);
+    top: auto;
+    width: calc(100% - var(--spacing-xl));
+    max-width: 600px;
+  }
+}
+
+@media (max-width: var(--breakpoint-tablet)) {
+  .navigation-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-sm);
+  }
+  
+  .nav-link {
+    font-size: var(--font-size-base);
+  }
+}
+
+@media (max-width: var(--breakpoint-mobile)) {
+  .about {
+    padding-bottom: var(--spacing-xxl);
+  }
+  
+  .studio-header,
+  .studio-description,
+  .services,
+  .founder {
+    padding: var(--spacing-lg) var(--spacing-md);
+  }
 }
 .sokolart-studio-2025 {
   color: rgba(0, 0, 0, 0.72);
