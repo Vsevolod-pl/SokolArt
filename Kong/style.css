@@ -39,10 +39,26 @@ a:visited {
   color: grey; /* Or another shade if desired */
 }
 
+.content{
+}
+
 .main-image {
   width: 100%;
   height: auto;
   display: block;
+  padding: 5vw;
+}
+
+.same-height-row {
+  display: flex;
+  width: 100vw; /* Full viewport width */
+  height: auto; /* Let height adjust based on content */
+  gap: 0; /* No space between images */
+  margin: 0;
+  padding: 0;
+}
+
+.row-image {
 }
 
 .image-grid {
@@ -53,11 +69,11 @@ a:visited {
   margin-bottom: 16px;
 }
 
-.image-grid img {
+/*.image-grid img {
   width: 100%;
   height: auto;
   display: block;
-}
+}*/
 
 .footer {
   padding: 20px 5%;
