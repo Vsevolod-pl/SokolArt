@@ -202,7 +202,7 @@
   width: 81.5vw;
   height: 50.92857142857143vw;
   position: absolute;
-  left: calc(108.0px);
+  left:  7.714285714285714vw;
   top: 43.92857142857143vw;
   object-fit: cover;
   aspect-ratio: 1141/713;
@@ -211,7 +211,7 @@
   width: 101.85714285714286vw;
   height: 29.928571428571427vw;
   position: absolute;
-  left: calc(-20.0px);
+  left:  -1.4285714285714286vw;
   top: 0.0vw;
   object-fit: cover;
   aspect-ratio: 1426/419;
@@ -313,7 +313,7 @@
   width: 87.0vw;
   height: 4.285714285714286vw;
   position: absolute;
-  left: calc(172.0px);
+  left:  12.285714285714286vw;
   top: 395.14285714285717vw;
   box-shadow: var(
     --button-shadow-box-shadow,
@@ -357,7 +357,7 @@
   line-height: 150%;
   font-weight: 600;
   position: absolute;
-  left: calc(212.0px);
+  left:  15.142857142857142vw;
   top: 395.35714285714283vw;
   width: 94.57142857142857vw;
   height: 5.0vw;
