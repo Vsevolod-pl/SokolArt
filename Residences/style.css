@@ -4,59 +4,59 @@
 }
 .geometry-2 {
   background: #ffffff;
-  height: 5669px;
+  height: 404.92857142857144vw;
   position: relative;
   overflow: hidden;
 }
 .frame-1321317460 {
-  width: 100px;
-  height: 100px;
+  width: 7.142857142857143vw;
+  height: 7.142857142857143vw;
   position: absolute;
-  left: 176px;
-  top: 1234px;
+  left: 12.571428571428571vw;
+  top: 88.14285714285714vw;
   overflow: hidden;
 }
 ._022-1 {
-  width: 264px;
-  height: 318px;
+  width: 18.857142857142858vw;
+  height: 22.714285714285715vw;
   position: absolute;
-  left: 697px;
-  top: 1721px;
+  left: 49.785714285714285vw;
+  top: 122.92857142857143vw;
   aspect-ratio: 264/318;
 }
 .khlebny-presentation-page-32-2 {
-  width: 612px;
-  height: 384px;
+  width: 43.714285714285715vw;
+  height: 27.428571428571427vw;
   position: absolute;
-  left: 85px;
-  top: 1366px;
+  left: 6.071428571428571vw;
+  top: 97.57142857142857vw;
   object-fit: cover;
   aspect-ratio: 612/384;
 }
 .image-19 {
-  width: 562px;
-  height: 276px;
+  width: 40.142857142857146vw;
+  height: 19.714285714285715vw;
   position: absolute;
-  left: 773px;
-  top: 1778px;
+  left: 55.214285714285715vw;
+  top: 127.0vw;
   object-fit: cover;
   aspect-ratio: 562/276;
 }
 .photo-2022-11-27-13-41-53-1 {
-  width: 615px;
-  height: 384px;
+  width: 43.92857142857143vw;
+  height: 27.428571428571427vw;
   position: absolute;
-  left: 720px;
-  top: 1366px;
+  left: 51.42857142857143vw;
+  top: 97.57142857142857vw;
   object-fit: cover;
   aspect-ratio: 615/384;
 }
 .image-20 {
-  width: 709px;
-  height: 272px;
+  width: 50.642857142857146vw;
+  height: 19.428571428571427vw;
   position: absolute;
-  left: 50px;
-  top: 1780px;
+  left: 3.5714285714285716vw;
+  top: 127.14285714285714vw;
   object-fit: cover;
   aspect-ratio: 709/272;
 }
@@ -64,42 +64,42 @@
   color: #828282;
   text-align: left;
   font-family: "Inter-SemiBold", sans-serif;
-  font-size: 24px;
+  font-size: 1.7142857142857142vw;
   line-height: 150%;
   font-weight: 600;
   position: absolute;
-  left: 50px;
-  top: 2054px;
-  width: 967px;
-  height: 70px;
+  left: 3.5714285714285716vw;
+  top: 146.71428571428572vw;
+  width: 69.07142857142857vw;
+  height: 5.0vw;
 }
 .heading {
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-s, 24px);
+  gap: var(--spacing-s, 1.7142857142857142vw);
   align-items: flex-start;
   justify-content: flex-start;
-  width: 314px;
-  height: 61px;
+  width: 22.428571428571427vw;
+  height: 4.357142857142857vw;
   position: absolute;
-  left: 57px;
-  top: 4910px;
+  left: 4.071428571428571vw;
+  top: 350.7142857142857vw;
 }
 ._24-1 {
-  width: 1450px;
-  height: 977px;
+  width: 103.57142857142857vw;
+  height: 69.78571428571429vw;
   position: absolute;
-  left: 0px;
-  top: 4452px;
+  left: 0.0vw;
+  top: 318.0vw;
   object-fit: cover;
   aspect-ratio: 1450/977;
 }
 .image-18 {
-  width: 1407px;
-  height: 782px;
+  width: 100.5vw;
+  height: 55.857142857142854vw;
   position: absolute;
-  left: 0px;
-  top: 3635px;
+  left: 0.0vw;
+  top: 259.64285714285717vw;
   object-fit: cover;
   aspect-ratio: 1407/782;
 }
@@ -107,34 +107,34 @@
   color: rgba(44, 41, 41, 0.49);
   text-align: left;
   font-family: "Inter-SemiBold", sans-serif;
-  font-size: 24px;
+  font-size: 1.7142857142857142vw;
   line-height: 150%;
   font-weight: 600;
   position: absolute;
-  left: 49px;
-  top: 3645px;
-  width: 967px;
-  height: 70px;
+  left: 3.5vw;
+  top: 260.35714285714283vw;
+  width: 69.07142857142857vw;
+  height: 5.0vw;
 }
 .div3 {
   color: rgba(44, 41, 41, 0.49);
   text-align: left;
   font-family: "Inter-SemiBold", sans-serif;
-  font-size: 24px;
+  font-size: 1.7142857142857142vw;
   line-height: 150%;
   font-weight: 600;
   position: absolute;
-  left: 23px;
-  top: 4435px;
-  width: 967px;
-  height: 70px;
+  left: 1.6428571428571428vw;
+  top: 316.7857142857143vw;
+  width: 69.07142857142857vw;
+  height: 5.0vw;
 }
 .image-17 {
-  width: 1394px;
-  height: 588px;
+  width: 99.57142857142857vw;
+  height: 42.0vw;
   position: absolute;
-  left: 32px;
-  top: 2089px;
+  left: 2.2857142857142856vw;
+  top: 149.21428571428572vw;
   object-fit: cover;
   aspect-ratio: 1394/588;
 }
@@ -142,46 +142,46 @@
   color: #828282;
   text-align: left;
   font-family: "Inter-SemiBold", sans-serif;
-  font-size: 24px;
+  font-size: 1.7142857142857142vw;
   line-height: 150%;
   font-weight: 600;
   position: absolute;
-  left: 32px;
-  top: 2662px;
-  width: 967px;
-  height: 70px;
+  left: 2.2857142857142856vw;
+  top: 190.14285714285714vw;
+  width: 69.07142857142857vw;
+  height: 5.0vw;
 }
 ._049-1 {
-  width: 679px;
-  height: 371px;
+  width: 48.5vw;
+  height: 26.5vw;
   position: absolute;
-  left: 724px;
-  top: 2719px;
+  left: 51.714285714285715vw;
+  top: 194.21428571428572vw;
   aspect-ratio: 679/371;
 }
 ._038-1 {
-  width: 666px;
-  height: 371px;
+  width: 47.57142857142857vw;
+  height: 26.5vw;
   position: absolute;
-  left: 33px;
-  top: 2719px;
+  left: 2.357142857142857vw;
+  top: 194.21428571428572vw;
   aspect-ratio: 666/371;
 }
 ._25-1 {
-  width: 1407px;
-  height: 868px;
+  width: 100.5vw;
+  height: 62.0vw;
   position: absolute;
-  left: 14px;
-  top: 2719px;
+  left: 1.0vw;
+  top: 194.21428571428572vw;
   object-fit: cover;
   aspect-ratio: 1407/868;
 }
 .photo-2022-11-26-13-15-47-1 {
-  width: 588px;
-  height: 423px;
+  width: 42.0vw;
+  height: 30.214285714285715vw;
   position: absolute;
-  left: 33px;
-  top: 2719px;
+  left: 2.357142857142857vw;
+  top: 194.21428571428572vw;
   object-fit: cover;
   aspect-ratio: 588/423;
 }
@@ -189,30 +189,30 @@
   color: rgba(44, 41, 41, 0.49);
   text-align: left;
   font-family: "Inter-SemiBold", sans-serif;
-  font-size: 24px;
+  font-size: 1.7142857142857142vw;
   line-height: 150%;
   font-weight: 600;
   position: absolute;
-  left: 63px;
-  top: 2735px;
-  width: 967px;
-  height: 70px;
+  left: 4.5vw;
+  top: 195.35714285714286vw;
+  width: 69.07142857142857vw;
+  height: 5.0vw;
 }
 .photo-10-2023-08-26-16-05-13-1 {
-  width: 1141px;
-  height: 713px;
+  width: 81.5vw;
+  height: 50.92857142857143vw;
   position: absolute;
-  left: calc(50% - 592px);
-  top: 615px;
+  left: calc(108.0px);
+  top: 43.92857142857143vw;
   object-fit: cover;
   aspect-ratio: 1141/713;
 }
 .image-4 {
-  width: 1426px;
-  height: 419px;
+  width: 101.85714285714286vw;
+  height: 29.928571428571427vw;
   position: absolute;
-  left: calc(50% - 720px);
-  top: 0px;
+  left: calc(-20.0px);
+  top: 0.0vw;
   object-fit: cover;
   aspect-ratio: 1426/419;
 }
@@ -224,28 +224,28 @@
     "Roboto-Medium",
     sans-serif
   );
-  font-size: var(--m3-display-large-emphasized-font-size, 57px);
-  line-height: var(--m3-display-large-emphasized-line-height, 64px);
-  letter-spacing: var(--m3-display-large-emphasized-letter-spacing, -0.25px);
+  font-size: var(--m3-display-large-emphasized-font-size, 4.071428571428571vw);
+  line-height: var(--m3-display-large-emphasized-line-height, 4.571428571428571vw);
+  letter-spacing: var(--m3-display-large-emphasized-letter-spacing, -0.017857142857142856vw);
   font-weight: var(--m3-display-large-emphasized-font-weight, 500);
   position: absolute;
-  left: 1071px;
-  top: 298px;
-  width: 297px;
-  height: 121px;
+  left: 76.5vw;
+  top: 21.285714285714285vw;
+  width: 21.214285714285715vw;
+  height: 8.642857142857142vw;
 }
 .div6 {
   text-align: left;
   font-family: "Inter-SemiBold", sans-serif;
-  font-size: 40px;
+  font-size: 2.857142857142857vw;
   line-height: 150%;
   font-weight: 600;
   position: absolute;
   left: 50%;
   translate: -50%;
-  top: 445px;
-  width: 1373px;
-  height: 70px;
+  top: 31.785714285714285vw;
+  width: 98.07142857142857vw;
+  height: 5.0vw;
 }
 .div-6-span {
   color: rgba(0, 0, 0, 0.34);
@@ -263,37 +263,37 @@
   color: rgba(0, 0, 0, 0.42);
   text-align: left;
   font-family: "Inter-SemiBold", sans-serif;
-  font-size: 24px;
+  font-size: 1.7142857142857142vw;
   line-height: 150%;
   font-weight: 600;
   position: absolute;
-  left: 50px;
-  top: 515px;
-  width: 967px;
-  height: 70px;
+  left: 3.5714285714285716vw;
+  top: 36.785714285714285vw;
+  width: 69.07142857142857vw;
+  height: 5.0vw;
 }
 .button {
   background: #000000;
-  border-radius: 8px;
-  padding: 12px 24px 12px 24px;
+  border-radius: 0.5714285714285714vw;
+  padding: 0.8571428571428571vw 1.7142857142857142vw 0.8571428571428571vw 1.7142857142857142vw;
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  gap: 0.5714285714285714vw;
   align-items: center;
   justify-content: flex-start;
   position: absolute;
-  left: 32px;
-  bottom: 79px;
+  left: 2.2857142857142856vw;
+  bottom: 5.642857142857143vw;
   box-shadow: var(
     --button-shadow-box-shadow,
-    0px 1px 2px 0px rgba(0, 0, 0, 0.05)
+    0.0vw 0.07142857142857142vw 0.14285714285714285vw 0.0vw rgba(0, 0, 0, 0.05)
   );
 }
 .div8 {
   color: #ffffff;
   text-align: left;
   font-family: "Inter-Medium", sans-serif;
-  font-size: 24px;
+  font-size: 1.7142857142857142vw;
   line-height: 150%;
   font-weight: 500;
   position: relative;
@@ -303,35 +303,35 @@
 }
 .button2 {
   background: #e6e6e6;
-  border-radius: 8px;
-  padding: 12px 24px 12px 24px;
+  border-radius: 0.5714285714285714vw;
+  padding: 0.8571428571428571vw 1.7142857142857142vw 0.8571428571428571vw 1.7142857142857142vw;
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  gap: 0.5714285714285714vw;
   align-items: center;
   justify-content: flex-start;
-  width: 1218px;
-  height: 60px;
+  width: 87.0vw;
+  height: 4.285714285714286vw;
   position: absolute;
-  left: calc(50% - 528px);
-  top: 5532px;
+  left: calc(172.0px);
+  top: 395.14285714285717vw;
   box-shadow: var(
     --button-shadow-box-shadow,
-    0px 1px 2px 0px rgba(0, 0, 0, 0.05)
+    0.0vw 0.07142857142857142vw 0.14285714285714285vw 0.0vw rgba(0, 0, 0, 0.05)
   );
 }
 .sokolart-studio-yandex-ru {
   color: #000000;
   text-align: left;
   font-family: "Inter-Medium", sans-serif;
-  font-size: 32px;
+  font-size: 2.2857142857142856vw;
   line-height: 150%;
   font-weight: 500;
   position: absolute;
-  left: 963px;
-  top: 5470px;
-  width: 434px;
-  height: 179px;
+  left: 68.78571428571429vw;
+  top: 390.7142857142857vw;
+  width: 31.0vw;
+  height: 12.785714285714286vw;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -340,25 +340,25 @@
   color: rgba(0, 0, 0, 0.99);
   text-align: left;
   font-family: "Inter-SemiBold", sans-serif;
-  font-size: 32px;
+  font-size: 2.2857142857142856vw;
   line-height: 150%;
   font-weight: 600;
   position: absolute;
-  left: 653px;
-  top: 5536px;
-  width: 293px;
-  height: 70px;
+  left: 46.642857142857146vw;
+  top: 395.42857142857144vw;
+  width: 20.928571428571427vw;
+  height: 5.0vw;
 }
 .t-me-mariia-v-sokolova {
   color: rgba(0, 0, 0, 0.99);
   text-align: left;
   font-family: "Inter-SemiBold", sans-serif;
-  font-size: 32px;
+  font-size: 2.2857142857142856vw;
   line-height: 150%;
   font-weight: 600;
   position: absolute;
-  left: calc(50% - 488px);
-  top: 5535px;
-  width: 1324px;
-  height: 70px;
+  left: calc(212.0px);
+  top: 395.35714285714283vw;
+  width: 94.57142857142857vw;
+  height: 5.0vw;
 }

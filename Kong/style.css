@@ -58,7 +58,30 @@ a:visited {
   padding: 0;
 }
 
-.row-image {
+.row1-image1 {
+  height: 40.1vw;
+  width: 59.4vw;
+  margin-left: 0.7vw;
+  margin-right: 1vw;
+  margin-bottom: 1vw;
+}
+
+.row1-image2 {
+  height: 40.1vw;
+  width: 37.2vw;
+}
+
+.row2-image1 {
+  width: 51.58vw;
+  height: 64.46vw;
+  margin-left: 0.7vw;
+  margin-right: 1vw;
+  margin-bottom: 1vw;
+}
+
+.row2-image2 {
+  width: 45.41vw;
+  height: 64.46vw;
 }
 
 .image-grid {
