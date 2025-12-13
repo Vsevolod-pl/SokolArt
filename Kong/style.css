@@ -46,12 +46,22 @@ a:visited {
   width: 100%;
   height: auto;
   display: block;
-  padding: 5vw;
+  padding-bottom: 1vw;
+  padding-top: 2vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.footer-text {
+  font-size: 1.5vw;
+  color: #555;
+  margin-left: 2vw;
+  margin-bottom: 2vw;
 }
 
 .same-height-row {
   display: flex;
-  width: 100vw; /* Full viewport width */
+  width: 99vw; /* Full viewport width */
   height: auto; /* Let height adjust based on content */
   gap: 0; /* No space between images */
   margin: 0;
@@ -105,12 +115,6 @@ a:visited {
   flex-wrap: wrap;
   gap: 20px;
   align-items: center;
-}
-
-.footer-text {
-  font-size: 18px;
-  color: #555;
-  margin-left: 100px;
 }
 
 .contact-button {

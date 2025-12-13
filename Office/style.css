@@ -17,8 +17,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 5%;
-  gap: 20px;
+  /*padding: 20px 5%;*/
+  padding: 3vw;
+  /*gap: 20px;*/
 }
 
 .logo {
@@ -35,7 +36,7 @@ body {
 
 .nav-menu {
   display: flex;
-  gap: 20px;
+  gap: 2vw;
   font-size: 2.5vw;
   text-transform: uppercase;
   color: #888;
@@ -80,7 +81,7 @@ body {
 }
 .office {
   background: #ffffff;
-  height: 194vw;
+  height: 212vw;
   position: relative;
   overflow: hidden;
 }
@@ -100,12 +101,12 @@ body {
   color: rgba(0, 0, 0, 0.42);
   text-align: left;
   font-family: "Inter-SemiBold", sans-serif;
-  font-size: 2.857142857142857vw;
+  font-size: 1.4vw;
   line-height: 150%;
   font-weight: 600;
   position: absolute;
-  left: 4.785714285714286vw;
-  top: 211.85714285714286vw;
+  left: 36.8vw;
+  top: 208.9vw;
   width: 69.07142857142857vw;
   height: 5.0vw;
 }
