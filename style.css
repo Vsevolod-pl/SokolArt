@@ -1,0 +1,159 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 5%;
+}
+
+.logo {
+  width: 80%;
+  height: auto;
+}
+
+.globe-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 2vw;
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  color: #888;
+  justify-content: center;
+}
+
+a {
+  color: grey; /* Or use a specific shade like #888888 */
+}
+/* Optionally, you might want to style visited links too */
+a:visited {
+  color: grey; /* Or another shade if desired */
+}
+
+.content{
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding-bottom: 1vw;
+  padding-top: 2vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.footer-text {
+  font-size: 1.5vw;
+  color: #555;
+  margin-left: 2vw;
+  margin-bottom: 2vw;
+}
+
+.same-height-row {
+  display: flex;
+  width: 99vw; /* Full viewport width */
+  height: auto; /* Let height adjust based on content */
+  gap: 0; /* No space between images */
+  margin: 0;
+  padding: 0;
+}
+
+.row1-image1 {
+  height: 40.1vw;
+  width: 59.4vw;
+  margin-left: 0.7vw;
+  margin-right: 1vw;
+  margin-bottom: 1vw;
+}
+
+.row1-image2 {
+  height: 40.1vw;
+  width: 37.2vw;
+}
+
+.row2-image1 {
+  width: 51.58vw;
+  height: 64.46vw;
+  margin-left: 0.7vw;
+  margin-right: 1vw;
+  margin-bottom: 1vw;
+}
+
+.row2-image2 {
+  width: 45.41vw;
+  height: 64.46vw;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 0 5%;
+  margin-bottom: 16px;
+}
+
+/*.image-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+}*/
+
+.footer {
+  padding: 20px 5%;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.contact-button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-info {
+  display: flex;
+  gap: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Reset styles from the original file */
+a,
+button,
+input,
+select,
+h1,
+h2,
+h3,
+h4,
+h5,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  background: none;
+  -webkit-font-smoothing: antialiased;
+}
+menu, ol, ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
